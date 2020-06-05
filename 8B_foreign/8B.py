@@ -1,0 +1,5 @@
+a, b= input().split()
+a = int(a)
+b = int(b)
+sums = int((a*(a+1)//2*b+a)*(b-1)*b//2%1000000007)
+print(sums)
